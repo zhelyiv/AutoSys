@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ActionManagers">
+      <UniqueIdentifier>{146c421b-a567-408c-9cb6-cf4e861abf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{363db418-c1a4-4f5a-98aa-8312f206c118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task_Scheduler">
+      <UniqueIdentifier>{1767cb36-726e-4eb9-bbd2-a2e09589d540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SqlLite3">
+      <UniqueIdentifier>{e2b5ace6-e072-40bc-92ab-7a92d5b1dc80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="c">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseActionManager.h">
+      <Filter>ActionManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoSys_Utils.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="JobScheduler.h">
+      <Filter>Task_Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlConnector.h">
+      <Filter>SqlLite3</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpListener.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdDispatcher.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispatches.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdHelpers.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdList.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="jobs_tbl.h">
+      <Filter>Task_Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="AUTOSYSCONFIG.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="LuraSysHeartbeat.h">
+      <Filter>Task_Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="LuraSysThPool.h">
+      <Filter>Task_Scheduler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoSys_Utils.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="JobScheduler.cpp">
+      <Filter>Task_Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlConnector.cpp">
+      <Filter>SqlLite3</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseActionManager.cpp">
+      <Filter>ActionManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpListener.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdDispatcher.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispatches.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="jobs_tbl.cpp">
+      <Filter>Task_Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="LuraSysHeartbeat.cpp">
+      <Filter>Task_Scheduler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoSys_Scheduler.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
